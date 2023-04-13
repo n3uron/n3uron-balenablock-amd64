@@ -20,7 +20,8 @@ assets:
 data:
   applicationEnvironmentVariables:
     - HOSTNAME: balena-edge01
-  defaultDeviceType: genericx86-64-ext
+  defaultDeviceType: generic-amd64
   supportedDeviceTypes:
+    - generic-amd64
     - genericx86-64-ext
     - intel-nuc
